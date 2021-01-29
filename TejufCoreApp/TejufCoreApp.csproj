@@ -13,4 +13,12 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.11" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TejRieCoreApp.Application\TejRieCoreApp.Application.csproj" />
+    <ProjectReference Include="..\TejRieCoreApp.Data.EF\TejRieCoreApp.Data.EF.csproj" />
+    <ProjectReference Include="..\TejRieCoreApp.Data\TejRieCoreApp.Data.csproj" />
+    <ProjectReference Include="..\TejRieCoreApp.Infrastructure\TejRieCoreApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\TejRieCoreApp.Utilities\TejRieCoreApp.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
